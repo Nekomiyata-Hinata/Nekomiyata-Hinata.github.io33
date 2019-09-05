@@ -6,6 +6,27 @@
 		<title>网页导航(=￣ω￣=)(此网站为某个闲人做的境像)</title>
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
 		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript">   
+function password() {   
+var testV = 1;   
+var pass1 = prompt('请输入密码','');   
+while (testV < 3) {   
+if (!pass1)   
+history.go(-1);   
+if (pass1 == "123") {//初始密码123   
+alert('密码正确');   
+break;   
+}   
+testV+=1;   
+var pass1 =   
+prompt('密码错误!请重新输入:');   
+}   
+if (pass1!="password" & testV ==3)   
+history.go(-1);   
+return " ";   
+}   
+document.write(password());   
+</script>
 	</head>
 	<script src="https://cdn.90so.net/jquery/3.3.1/jquery.min.js"></script>
 
