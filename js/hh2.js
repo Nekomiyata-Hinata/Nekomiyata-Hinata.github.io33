@@ -4,7 +4,7 @@ var pass1 = prompt('请输入密码','');
 while (testV < 3) {   
 if (!pass1)   
 history.go(-1);   
-if (pass1 == "123") {//初始密码123   
+if (pass1 == "poi233") { 
 alert('密码正确');   
 break;   
 }   
